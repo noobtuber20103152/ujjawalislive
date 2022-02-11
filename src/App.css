@@ -1,0 +1,267 @@
+
+@font-face {
+  font-family: Hacked;
+  src: url(https://hackedfont.com/HACKED.ttf);
+}
+body{
+  font-family: Hacked;
+}
+
+#username {
+  color: rgb(60, 73, 73);
+}
+#navbar {
+  background: linear-gradient(to right, #3ee8c3 ,#3ee8c3);
+}
+#Front {
+  background: linear-gradient(to right, #3ee8c3 ,#3ee8c3);
+  height: auto;
+  height: 90vh;
+  /* clip-path: polygon(0 0.3%, 100% 0%, 100% 92%, 0% 100%); */
+  /* clip-path: polygon(77% 100%, 66% 88%, 56% 99%, 43% 88%, 32% 100%, 19% 89%, 0 100%, 99% 88%, 92% 100%, 83% 85%); */
+}
+#HeyAll {
+  font-size: 2.1875rem;
+  line-height: 1.5;
+  margin-top: 3rem;
+  color: #fff;
+  font-weight: 700;
+  animation: 1.3s ease-out 0s 1 slideInFromLeft;
+}
+#Intro {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  color: white;
+  /* font-weight: 400; */
+  animation: 1.3s ease-out 0s 1 slideInFromLeft;
+}
+
+#icons a i {
+  font-size: 25px;
+}
+#icons a {
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transform: translateY(0px);
+  transition: 1s;
+  animation-timing-function: ease-in-out;
+}
+#icons a:hover {
+  transform: translateY(5px);
+  transition: 1s;
+  animation-timing-function: ease-in-out;
+}
+#HeyAllbegin {
+  width: 75%;
+}
+#Introbegin {
+  width: 75%;
+}
+#icons {
+  width: 75%;
+  margin-top: 40px;
+  animation: 2s ease-out 0s 1 opacity;
+}
+#CodingImg {
+  width: 140%;
+  animation: 2s ease-out 0s 1 opacity;
+}
+@media only screen and (max-width: 1024px) {
+  #HeyAllbegin {
+    width: 100%;
+    padding: 0px;
+  }
+  #Introbegin {
+    width: 100%;
+    padding: 0px;
+  }
+  #icons {
+    width: 100%;
+    padding: 0px;
+  }
+  #CodingImg {
+    width: 180%;
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+#Passion {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.7;
+  opacity: 0.7;
+}
+#workbox1 {
+  animation: 1.3s ease-out 0s 1 slideUp;
+}
+#workbox2 {
+  animation: 1.3s ease-out 0s 1 slideUp;
+}
+#workbox3 {
+  animation: 1.3s ease-out 0s 1 slideRight;
+}
+.skillIcons {
+  transform: translateY(0px);
+  transition: 1s;
+  animation-timing-function: ease-in-out;
+}
+.skillIcons:hover {
+  transform: translateY(-10px);
+  transition: 1s;
+  animation-timing-function: ease-out;
+  cursor: pointer;
+}
+#pro1 {
+  animation: 1.3s ease-out 0s 1 slideUp;
+}
+#pro2 {
+  animation: 1.3s ease-out 0s 1 slideRight;
+}
+#Education {
+  background: linear-gradient(to right, #3ee8c3 ,#3ee8c3);
+  clip-path: polygon(0 0.3%, 100% 0%, 100% 92%, 0% 100%);
+}
+
+#edubox1 {
+  transform: translateY(0px);
+  transition: 1s;
+  animation-timing-function: ease-in-out;
+}
+#edubox1:hover {
+  transform: translateY(-10px);
+  transition: 1s;
+  animation-timing-function: ease-out;
+  cursor: pointer;
+}
+
+#edubox2 {
+  transform: translateY(0px);
+  transition: 1s;
+  animation-timing-function: ease-in-out;
+}
+#edubox2:hover {
+  transform: translateY(-10px);
+  transition: 1s;
+  animation-timing-function: ease-out;
+  cursor: pointer;
+}
+#edubox3 {
+  transform: translateY(0px);
+  transition: 1s;
+  animation-timing-function: ease-in-out;
+}
+#edubox3:hover {
+  transform: translateY(-10px);
+  transition: 1s;
+  animation-timing-function: ease-out;
+  cursor: pointer;
+}
+#project1 {
+  transform: translateY(0px);
+  transition: 1s;
+  animation-timing-function: ease-in-out;
+}
+#project1:hover {
+  transform: translateY(-10px);
+  transition: 1s;
+  animation-timing-function: ease-out;
+  cursor: pointer;
+}
+#project2 {
+  transform: translateY(0px);
+  transition: 1s;
+  animation-timing-function: ease-in-out;
+}
+#project2:hover {
+  transform: translateY(-10px);
+  transition: 1s;
+  animation-timing-function: ease-out;
+  cursor: pointer;
+}
+#project3 {
+  transform: translateY(0px);
+  transition: 1s;
+  animation-timing-function: ease-in-out;
+}
+#project3:hover {
+  transform: translateY(-10px);
+  transition: 1s;
+  animation-timing-function: ease-out;
+  cursor: pointer;
+}
+#footer {
+  background: linear-gradient(to right, #3ee8c3 ,#3ee8c3);
+}
+
+#social1 {
+  transform: translateY(0px);
+  transition: 1s;
+  animation-timing-function: ease-in-out;
+}
+#social1:hover {
+  transform: translateY(-10px);
+  transition: 1s;
+  animation-timing-function: ease-out;
+  cursor: pointer;
+}
+#social2 {
+  transform: translateY(0px);
+  transition: 1s;
+  animation-timing-function: ease-in-out;
+}
+#social2:hover {
+  transform: translateY(-10px);
+  transition: 1s;
+  animation-timing-function: ease-out;
+  cursor: pointer;
+}
+#social3 {
+  transform: translateY(0px);
+  transition: 1s;
+  animation-timing-function: ease-in-out;
+}
+#social3:hover {
+  transform: translateY(-10px);
+  transition: 1s;
+  animation-timing-function: ease-out;
+  cursor: pointer;
+}
